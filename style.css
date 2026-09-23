@@ -227,7 +227,7 @@ div{
 .product-header{
     display: flex;
     justify-content: space-between;
-    align-items: baseline;
+    align-items: center;
     width: 100%;
     gap: 24px;
     margin-bottom: 24px;
@@ -288,4 +288,44 @@ div{
     border-radius: 10px;
     background: transparent;
     font-weight: 600;
+}
+.product-card-wide {
+    flex-basis: 100%;
+}
+.footer-top{
+    display : flex;
+    justify-content: flex-start;
+    gap: 60px;
+}
+.footer-brand{
+    flex: 2;
+}
+.site-footer{
+    background-color: #23201c;
+    color: #e8e2dc;
+    padding: 40px 0 20px;
+}
+.footer-content{
+    width: 100%;
+    max-width: 1120px;
+    margin: 0 auto;
+    padding: 0 28px;
+}
+.footer-links{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.footer-links a{
+    text-decoration: none;
+    color: inherit;
+}
+.footer-bottom{
+    display: flex;
+    justify-content: space-between;
+
+    border-top: 1px solid #3a342f;
+    margin-top: 30px;
+    padding-top: 16px;
 }
